@@ -23,15 +23,15 @@ int main(){
     scanf("%f %f", &pr.x, &pr.y);
     scanf("%d", &k);
     
-    if (k<=0){
+    	if (k<=0){
     scanf("%d", &k); 
-    } else 
+    	} else 
     
-        d1 = sqrt(pow(p1.x - pr.x, 2) + (pow(y1 - ypr, 2));
-        d2 = sqrt(pow(p2.x - pr.x, 2) + (pow(y2 - ypr, 2));
-        d3 = sqrt(pow(p3.x - pr.x, 2) + (pow(y3 - ypr, 2));
-        d4 = sqrt(pow(p4.x - pr.x, 2) + (pow(y4 - ypr, 2));
-        d5 = sqrt(pow(p5.x - pr.x, 2) + (pow(y5 - ypr, 2));
+        d1 = sqrt(pow(p1.x - pr.x, 2) + (pow(p1.y - pr.y, 2));
+        d2 = sqrt(pow(p2.x - pr.x, 2) + (pow(p2.y - pr.y, 2));
+        d3 = sqrt(pow(p3.x - pr.x, 2) + (pow(p3.y - pr.y, 2));
+        d4 = sqrt(pow(p4.x - pr.x, 2) + (pow(p4.y - pr.y, 2));
+        d5 = sqrt(pow(p5.x - pr.x, 2) + (pow(p5.y - pr.y, 2));
         
     printf("%.2f %.2f\n", p1.x, p1.y);
         printf("%.2f\n", d1);
@@ -43,8 +43,8 @@ int main(){
         printf("%.2f\n", d4);
     printf("%.2f %.2f\n", p5.x, p5.y);
         printf("%.2f\n", d5);
+        
 
 
-
-	return 0;
+return (0);
 }
